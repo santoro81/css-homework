@@ -1,0 +1,61 @@
+/* Reset de márgenes, padding y bordes */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reset de los estilos de los textos y los enlaces */
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Eliminar bordes y fondo de las listas */
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Reset de los estilos de tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset de formularios */
+input, button, select, textarea {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos de imagen */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Establece el color de fondo por defecto */
+body {
+  background-color: #fff;
+}
